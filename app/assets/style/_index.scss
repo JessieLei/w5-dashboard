@@ -1,0 +1,96 @@
+main {
+  width: 75%;
+}
+
+.dashboard {
+  h2 {
+    font-size: 24px !important;
+    margin-bottom: 0 !important;
+  }
+  h3 {
+    font-size: 16px !important;
+    margin-bottom: 0 !important;
+  }
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+.vw-100-flex {
+  width: calc(100vw - 135px);
+}
+
+.vh-100-column-flex {
+  height: calc(100vh - 136px);
+}
+
+.page-link {
+  color: #198754 !important;
+  border: 1px solid #198754 !important;
+  &:hover {
+    color: #fff !important;
+    background-color: #198754 !important;
+  }
+}
+
+.page-link-num-color {
+  color: #212529 !important;
+}
+
+.page-link-row {
+  padding: 5px 4px !important;
+}
+
+.table > :not(:last-child) > :last-child > * {
+  padding: 0.25rem 1rem !important;
+}
+.table > :not(caption) > * > * {
+  padding: 1rem 0 1rem 1rem !important;
+}
+
+/* Add New Admin Modal */
+
+.modal-header {
+  padding: 2rem !important;
+  border-bottom: 0 !important;
+}
+.modal-title {
+  font-size: 24px !important;
+}
+.modal-body {
+  padding: 0 2rem 1rem !important;
+}
+
+.form-control {
+  border: 1px solid #000 !important;
+  border-radius: 2px !important;
+}
+
+.border-bottom {
+  height: 1px;
+  margin: 24px 0;
+}
+
+.btn-outline-gray-400 {
+  border: 1px solid #ced4da;
+  &:hover {
+    background-color: #ced4da;
+  }
+}
+
+.form-check-input {
+  border-radius: 2px !important;
+  border: 1px solid #212529 !important;
+  &:focus {
+    border: 1px solid #8cc3aa !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.25rem #eef6f3 !important;
+  }
+  &:checked {
+    background-color: #198754 !important;
+  }
+}
+
+.modal-footer {
+  border: 0 !important;
+}

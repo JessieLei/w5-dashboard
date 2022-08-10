@@ -1,0 +1,25 @@
+.p-32 {
+  padding: 32px;
+}
+.mb-26 {
+  margin-bottom: 26px;
+}
+
+.fz-14 {
+  font-size: 14px;
+}
+
+.fz-20 {
+  font-size: 20px !important;
+}
+
+.green {
+  color: #198754 !important;
+}
+
+.gray-900 {
+  color: #212529;
+  &:hover {
+    color: #198754;
+  }
+}

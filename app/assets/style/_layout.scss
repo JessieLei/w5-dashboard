@@ -1,0 +1,45 @@
+.sidebar {
+  h1 {
+    a {
+      background-image: url(../images/logo-ANSWER.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 151px;
+      height: 40px;
+      display: block;
+      text-indent: 101%; /* 首行縮排 */
+      overflow: hidden; /* 自動隱藏超出的文字 */
+      white-space: nowrap; /* 強制不換行 */
+      margin-bottom: 32px;
+    }
+  }
+}
+
+.sidebar-list {
+  a {
+    color: #000 !important;
+    &:hover {
+      color: #198754 !important;
+      border-left: 4px solid #198754;
+      padding-left: 25px;
+      margin-left: -32px;
+    }
+  }
+}
+
+.user {
+  margin-bottom: 0 !important;
+  &-pic {
+    background-image: url(../images/andychen.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    flex-shrink: 0; /* 空間不夠時不要有任何壓縮 */
+  }
+}
+
+.vh-100-flex {
+  height: calc(100vh - 136px); /* 視窗高度減掉間距和logo的高度 */
+}
