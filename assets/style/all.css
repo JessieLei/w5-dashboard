@@ -1,0 +1,148 @@
+@charset "UTF-8";
+body {
+  font-family: "Lato", "Roboto Mono", sans-serif !important;
+  line-height: 1.5 !important; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+.p-32 {
+  padding: 32px; }
+
+.mb-26 {
+  margin-bottom: 26px; }
+
+.fz-14 {
+  font-size: 14px; }
+
+.fz-20 {
+  font-size: 20px !important; }
+
+.green {
+  color: #198754 !important; }
+
+.gray-900 {
+  color: #212529; }
+  .gray-900:hover {
+    color: #198754; }
+
+.sidebar h1 a {
+  background-image: url(../images/logo-ANSWER.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 151px;
+  height: 40px;
+  display: block;
+  text-indent: 101%;
+  /* 首行縮排 */
+  overflow: hidden;
+  /* 自動隱藏超出的文字 */
+  white-space: nowrap;
+  /* 強制不換行 */
+  margin-bottom: 32px; }
+
+.sidebar-list a {
+  color: #000 !important; }
+  .sidebar-list a:hover {
+    color: #198754 !important;
+    border-left: 4px solid #198754;
+    padding-left: 25px;
+    margin-left: -32px; }
+
+.user {
+  margin-bottom: 0 !important; }
+  .user-pic {
+    background-image: url(../images/andychen.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    /* 空間不夠時不要有任何壓縮 */ }
+
+.vh-100-flex {
+  height: calc(100vh - 136px);
+  /* 視窗高度減掉間距和logo的高度 */ }
+
+main {
+  width: 75%; }
+
+.dashboard h2 {
+  font-size: 24px !important;
+  margin-bottom: 0 !important; }
+
+.dashboard h3 {
+  font-size: 16px !important;
+  margin-bottom: 0 !important; }
+
+.dashboard ul {
+  margin-bottom: 0; }
+
+.vw-100-flex {
+  width: calc(100vw - 135px); }
+
+.vh-100-column-flex {
+  height: calc(100vh - 136px); }
+
+.page-link {
+  color: #198754 !important;
+  border: 1px solid #198754 !important; }
+  .page-link:hover {
+    color: #fff !important;
+    background-color: #198754 !important; }
+
+.page-link-num-color {
+  color: #212529 !important; }
+
+.page-link-row {
+  padding: 5px 4px !important; }
+
+.table > :not(:last-child) > :last-child > * {
+  padding: 0.25rem 1rem !important; }
+
+.table > :not(caption) > * > * {
+  padding: 1rem 0 1rem 1rem !important; }
+
+/* Add New Admin Modal */
+.modal-header {
+  padding: 2rem !important;
+  border-bottom: 0 !important; }
+
+.modal-title {
+  font-size: 24px !important; }
+
+.modal-body {
+  padding: 0 2rem 1rem !important; }
+
+.form-control {
+  border: 1px solid #000 !important;
+  border-radius: 2px !important; }
+
+.border-bottom {
+  height: 1px;
+  margin: 24px 0; }
+
+.btn-outline-gray-400 {
+  border: 1px solid #ced4da; }
+  .btn-outline-gray-400:hover {
+    background-color: #ced4da; }
+
+.form-check-input {
+  border-radius: 2px !important;
+  border: 1px solid #212529 !important; }
+  .form-check-input:focus {
+    border: 1px solid #8cc3aa !important;
+    outline: 0 !important;
+    -webkit-box-shadow: 0 0 0 0.25rem #eef6f3 !important;
+            box-shadow: 0 0 0 0.25rem #eef6f3 !important; }
+  .form-check-input:checked {
+    background-color: #198754 !important; }
+
+.modal-footer {
+  border: 0 !important; }
+
+/*# sourceMappingURL=all.css.map */
