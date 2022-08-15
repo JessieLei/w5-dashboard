@@ -53,16 +53,13 @@ img {
 
 .user {
   margin-bottom: 0 !important; }
-  .user-pic {
-    background-image: url(../images/andychen.jpeg);
-    background-size: cover;
-    background-position: center;
+  .user-pic img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    /* 防止圖片變形 */
     width: 40px;
     height: 40px;
-    border-radius: 24px;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
-    /* 空間不夠時不要有任何壓縮 */ }
+    border-radius: 24px; }
 
 .vh-100-flex {
   height: calc(100vh - 136px);
@@ -122,10 +119,6 @@ main {
   border: 1px solid #000 !important;
   border-radius: 2px !important; }
 
-.border-bottom {
-  height: 1px;
-  margin: 24px 0; }
-
 .btn-outline-gray-400 {
   border: 1px solid #ced4da; }
   .btn-outline-gray-400:hover {
@@ -144,5 +137,9 @@ main {
 
 .modal-footer {
   border: 0 !important; }
+
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px; }
 
 /*# sourceMappingURL=all.css.map */
