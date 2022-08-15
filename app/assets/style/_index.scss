@@ -66,11 +66,6 @@ main {
   border-radius: 2px !important;
 }
 
-.border-bottom {
-  height: 1px;
-  margin: 24px 0;
-}
-
 .btn-outline-gray-400 {
   border: 1px solid #ced4da;
   &:hover {
@@ -93,4 +88,9 @@ main {
 
 .modal-footer {
   border: 0 !important;
+}
+
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px;
 }

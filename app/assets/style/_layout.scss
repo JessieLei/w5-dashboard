@@ -30,13 +30,12 @@
 .user {
   margin-bottom: 0 !important;
   &-pic {
-    background-image: url(../images/andychen.jpeg);
-    background-size: cover;
-    background-position: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 24px;
-    flex-shrink: 0; /* 空間不夠時不要有任何壓縮 */
+    img {
+      object-fit: cover; /* 防止圖片變形 */
+      width: 40px;
+      height: 40px;
+      border-radius: 24px;
+    }
   }
 }
 

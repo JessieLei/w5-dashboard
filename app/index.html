@@ -10,18 +10,16 @@ current: index
     <div class="d-flex align-items-center mb-5">
       <h2 class="fw-bold me-5">Admin</h2>
       <div class="vw-100-flex d-flex justify-content-between">
-        <ul class="list-unstyled d-flex align-items-center">
+        <ul class="list-unstyled">
           <li class="me-2">
             <a
               href="#"
-              class="green"
+              class="green text-decoration-none"
               data-bs-toggle="modal"
               data-bs-target="#addModal"
-              ><span class="align-top material-icons"> add </span></a
+              ><span class="align-top material-icons"> add </span>
+              <span class="fw-bold text-dark">Add New Admin</span></a
             >
-          </li>
-          <li>
-            <h3 class="fw-bold">Add New Admin</h3>
           </li>
         </ul>
         <ul class="list-unstyled d-flex align-items-center">
@@ -42,7 +40,7 @@ current: index
     </div>
     <!-- BS5表格 -->
     <div class="d-flex flex-column justify-content-between vh-100-column-flex">
-      <table class="table">
+      <table class="table table-hover">
         <thead>
           <tr>
             <th scope="col">
@@ -361,7 +359,7 @@ current: index
             <input type="email" class="form-control" id="email" value />
           </div>
           <!-- border -->
-          <div class="border-bottom bg-gray-400"></div>
+          <hr class="my-4" />
           <h5 class="fz-20 fw-bold mb-3">Verification</h5>
           <p class="fs-6 fw-bold">
             <span class="material-icons align-top text-danger me-2">
@@ -375,7 +373,7 @@ current: index
             Send Verification Mail
           </button>
           <!-- border -->
-          <div class="border-bottom bg-gray-400"></div>
+          <hr class="my-4" />
           <h5 class="fz-20 fw-bold mb-3">Access Level</h5>
           <!-- select -->
           <select
@@ -388,7 +386,7 @@ current: index
             <option value="3">Admin3</option>
           </select>
           <!-- border -->
-          <div class="border-bottom bg-gray-400"></div>
+          <hr class="my-4" />
           <h5 class="fz-20 fw-bold mb-3">Custom Access</h5>
           <!-- check -->
           <div class="form-check mb-3">
@@ -419,12 +417,12 @@ current: index
       <div class="modal-footer">
         <button
           type="button"
-          class="btn btn-outline-success py-2"
+          class="btn btn-outline-success py-2 px-32 me-4"
           data-bs-dismiss="modal"
         >
           Cancel
         </button>
-        <button type="button" class="btn btn-success py-2">Add</button>
+        <button type="button" class="btn btn-success py-2 px-32">Add</button>
       </div>
     </div>
   </div>
